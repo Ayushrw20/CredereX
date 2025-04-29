@@ -1,8 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { router } from './routes';
-
 dotenv.config();
+import { router } from './routes';
 
 // Check that SUI_RPC_URL is set in .env file
 // This is important for the backend to communicate with the Sui network
